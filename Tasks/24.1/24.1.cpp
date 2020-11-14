@@ -13,7 +13,7 @@ int main(){
 		if (s[i] != s[i - 1]) { //(s[i] == 'X')
 			curLen++;
 			if (curLen > maxLen) {
-				maxLen = curLen;
+	  	maxLen = curLen;
 			}
 		}
 		else {
